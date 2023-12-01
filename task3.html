@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        function Program() {
+            var Name = prompt("الرجاء ادخال الأسم:");
+            var Number1 = parseFloat(prompt("االرجاء ادخال الرقم الأول:"));
+            var Number2 = parseFloat(prompt("الرجاء ادخال الرقم الثاني:"));
+            var Sum = Number1 + Number2 ;
+            alert("مجموع الأرقام السابقة:" + Sum);
+            document.write("مجموع الأرقام السابقة : " + Sum + "<br>");
+            var MaximumNumber = Math.max(Number1, Number2);
+            alert("الرقم الأكبر: " + MaximumNumber);
+            document.write("الرقم الأكبر: " + MaximumNumber + "<br>");
+            var thank = "Thank you very much " + Name + " for using my program";
+            alert(thank);
+            document.write(thank);
+        }
+    </script>
+    <button onclick="Program()">اضغط هنا لتشغيل البرنامج </button>
+</body>
+</html>
